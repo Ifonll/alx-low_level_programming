@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main - entry point generates a random password
+ * main - entry point generates randomly password
  *
  * Return: the generated password
  */
