@@ -1,9 +1,9 @@
-#include "main.h"
+
 /**
  * print_array - prints n elements of an array of integers
  * @a: A pointer to an int that will be updated
  * @n: The number of elements to print
- * Return: no 
+ * Return: no
  */
 
 void print_array(int *a, int n)
