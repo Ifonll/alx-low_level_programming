@@ -12,14 +12,8 @@
  */
 
 size_t print_list(const list_t *h){
-    typedef struct list_s
-{
-    char *str;
-    unsigned int len;
-    struct list_s *next;
-} list_t;
-
-    len = 0;
+    
+    size_t length = 0;
     if( str == NULL)
         printf("[0] (nil)");
     const list_t *str = NULL;
