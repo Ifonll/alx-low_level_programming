@@ -10,14 +10,22 @@
  *
  * Description: singly linked list node structure
  */
-typedef struct list_s
+
+size_t print_list(const list_t *h){
+    typedef struct list_s
 {
     char *str;
     unsigned int len;
     struct list_s *next;
 } list_t;
 
-const list_t{
-    int size_to;
-    const list_to *h;
+    len = 0;
+    if( str == NULL)
+        printf("[0] (nil)");
+    const list_t *str = NULL;
+    str = h;
+    while (str != NULL){
+        printf("%d", str -> next);
+        str = str -> next;
+    }
 }

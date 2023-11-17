@@ -9,7 +9,7 @@ struct node{
 int main(){
     struct node *head = NULL;
     head = (struct node  *)malloc(sizeof(struct node));
-
+    
     head -> data = 45;
     head -> link = NULL;
 
