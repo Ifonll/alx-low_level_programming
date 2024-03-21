@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "BREAK.C": "cpp",
+        "CONTINUE.C": "cpp",
+        "DANGLING.C": "cpp"
+    }
+}

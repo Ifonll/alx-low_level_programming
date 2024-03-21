@@ -2,7 +2,5 @@
 
 int main(){
 
-printf("%c", 98);
-
-return 0;
+printf("%d", 'A');
 }
