@@ -1,4 +1,11 @@
 #include "search_algos.h"
+/**
+ * linear_search - searching linear
+ * @array: array of integers
+ * @size: size of array
+ * @value: to be searched for
+ * Return: int 
+*/
 
 int linear_search(int *array, size_t size, int value)
 {
@@ -9,7 +16,7 @@ int linear_search(int *array, size_t size, int value)
         if (value == array[i])
         {
             return (i);
-        }        
+        }
     }
 return (-1);
 }

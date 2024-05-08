@@ -1,1 +1,1 @@
-it is seach algorithm
+it is seach 
